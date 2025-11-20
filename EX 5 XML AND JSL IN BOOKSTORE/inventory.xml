@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+    <metadata>
+        <store_name>ReadHub Online Library</store_name>
+        <last_updated>2024-11-11</last_updated>
+        <total_books>20</total_books>
+    </metadata>
+    
+    <books>
+        <book id="1">
+            <category>cse</category>
+            <title>Data Structures and Algorithms</title>
+            <author>Mark Allen Weiss</author>
+            <publisher>Pearson Education</publisher>
+            <price currency="INR">550.00</price>
+            <isbn>978-0132847377</isbn>
+            <stock>15</stock>
+            <rating>4.5</rating>
+            <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyrS1y1CFjWMCQrEWIGqxIMlUuoFKpxdZq-ETa6RNUnP6vahqvfYjIi3IHp30f5PcgYOs&amp;usqp=CAU</image>
+        </book>
+        
+        <book id="2">
+            <category>cse</category>
+            <title>Operating System Concepts</title>
+            <author>Abraham Silberschatz</author>
+            <publisher>John Wiley &amp; Sons</publisher>
+            <price currency="INR">600.00</price>
+            <isbn>978-1118063330</isbn>
+            <stock>12</stock>
+            <rating>4.7</rating>
+            <image>https://www.wileyindia.com/pub/media/catalog/product/cache/20f980a1f90e8cec7a3c8f2cf40a32a8/9/7/9789357460569.png</image>
+        </book>
+        
+        <book id="3">
+            <category>cse</category>
+            <title>Computer Networks</title>
+            <author>Andrew S. Tanenbaum</author>
+            <publisher>Pearson Education</publisher>
+            <price currency="INR">500.00</price>
+            <isbn>978-0132126953</isbn>
+            <stock>20</stock>
+            <rating>4.6</rating>
+            <image>https://booksdelivery.com/image/cache/catalog/books/pearson/computer-networks-%205th-edition-550x550h.jpeg</image>
+        </book>
+        
+        <book id="4">
+            <category>cse</category>
+            <title>Database System Concepts</title>
+            <author>Henry F. Korth</author>
+            <publisher>McGraw Hill Education</publisher>
+            <price currency="INR">650.00</price>
+            <isbn>978-0073523323</isbn>
+            <stock>8</stock>
+            <rating>4.8</rating>
+            <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJRTnR1YV0iR6o8QEOiBHhXkAXJgktJTRbQw&amp;s</image>
+        </book>
+        
+        <book id="5">
+            <category>cse</category>
+            <title>Introduction to Algorithms</title>
+            <author>CLRS</author>
+            <publisher>MIT Press</publisher>
+            <price currency="INR">700.00</price>
+            <isbn>978-0262033848</isbn>
+            <stock>10</stock>
+            <rating>5.0</rating>
+            <image>https://images.bookoutlet.com/covers/large/isbn978026/9780262033848-l.jpg</image>
+        </book>
+        
+        <book id="6">
+            <category>ece</category>
+            <title>Digital Signal Processing</title>
+            <author>John G. Proakis</author>
+            <publisher>McGraw Hill Education</publisher>
+            <price currency="INR">700.00</price>
+            <isbn>978-0131873742</isbn>
+            <stock>14</stock>
+            <rating>4.4</rating>
+            <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQohApo0XfezA1flcP0T53YRSdHIyTKLySthA&amp;s</image>
+        </book>
+        
+        <book id="7">
+            <category>ece</category>
+            <title>Microelectronic Circuits</title>
+            <author>Sedra and Smith</author>
+            <publisher>Oxford University Press</publisher>
+            <price currency="INR">680.00</price>
+            <isbn>978-0199476299</isbn>
+            <stock>11</stock>
+            <rating>4.7</rating>
+            <image>https://india.oup.com/covers/pdp/9780199476299</image>
+        </book>
+        
+        <book id="8">
+            <category>ece</category>
+            <title>VLSI Design</title>
+            <author>Sung-Mo Kang</author>
+            <publisher>John Wiley &amp; Sons</publisher>
+            <price currency="INR">800.00</price>
+            <isbn>978-0073380629</isbn>
+            <stock>6</stock>
+            <rating>4.3</rating>
+            <image>https://m.media-amazon.com/images/I/61uVlZen4UL._UF1000,1000_QL80_.jpg</image>
+        </book>
+        
+        <book id="9">
+            <category>ece</category>
+            <title>Communication Systems</title>
+            <author>Simon Haykin</author>
+            <publisher>John Wiley &amp; Sons</publisher>
+            <price currency="INR">720.00</price>
+            <isbn>978-0471697909</isbn>
+            <stock>9</stock>
+            <rating>4.6</rating>
+            <image>https://images-eu.ssl-images-amazon.com/images/I/812kbysLO7L._AC_UL600_SR600,600_.jpg</image>
+        </book>
+        
+        <book id="10">
+            <category>ece</category>
+            <title>Electronic Devices and Circuits</title>
+            <author>Robert L. Boylestad</author>
+            <publisher>Pearson Education</publisher>
+            <price currency="INR">660.00</price>
+            <isbn>978-0132622264</isbn>
+            <stock>13</stock>
+            <rating>4.5</rating>
+            <image>https://m.media-amazon.com/images/I/71tIs-c488L._UF1000,1000_QL80_.jpg</image>
+        </book>
+        
+        <book id="11">
+            <category>eee</category>
+            <title>Power Electronics</title>
+            <author>Ned Mohan</author>
+            <publisher>John Wiley &amp; Sons</publisher>
+            <price currency="INR">750.00</price>
+            <isbn>978-1118074800</isbn>
+            <stock>10</stock>
+            <rating>4.7</rating>
+            <image>https://m.media-amazon.com/images/I/715FoXarqOL._UF1000,1000_QL80_.jpg</image>
+        </book>
+        
+        <book id="12">
+            <category>eee</category>
+            <title>Electric Machinery Fundamentals</title>
+            <author>Stephen J. Chapman</author>
+            <publisher>McGraw Hill Education</publisher>
+            <price currency="INR">650.00</price>
+            <isbn>978-0073380466</isbn>
+            <stock>12</stock>
+            <rating>4.6</rating>
+            <image>https://www.mheducation.com/cover-images/Webp_400-wide/0073380466.webp</image>
+        </book>
+        
+        <book id="13">
+            <category>eee</category>
+            <title>Modern Control Systems</title>
+            <author>Katsuhiko Ogata</author>
+            <publisher>Prentice Hall</publisher>
+            <price currency="INR">680.00</price>
+            <isbn>978-0136156734</isbn>
+            <stock>15</stock>
+            <rating>4.8</rating>
+            <image>https://m.media-amazon.com/images/I/71e5+rVAL5L._UF1000,1000_QL80_.jpg</image>
+        </book>
+        
+        <book id="14">
+            <category>eee</category>
+            <title>Power System Analysis</title>
+            <author>William D. Stevenson</author>
+            <publisher>McGraw Hill Education</publisher>
+            <price currency="INR">700.00</price>
+            <isbn>978-0070612938</isbn>
+            <stock>8</stock>
+            <rating>4.5</rating>
+            <image>https://pragationline.com/wp-content/uploads/2021/03/ELEMENTS-OF-POWER-SYSTEM-ANALYSIS-WILLIAM-D.-STEVENSON-JR.jpg</image>
+        </book>
+        
+        <book id="15">
+            <category>eee</category>
+            <title>High Voltage Engineering</title>
+            <author>M.S. Naidu</author>
+            <publisher>Tata McGraw Hill</publisher>
+            <price currency="INR">740.00</price>
+            <isbn>978-0074636343</isbn>
+            <stock>7</stock>
+            <rating>4.4</rating>
+            <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH7I8QdWBEH6kFXztPH5m2a1IMBXJ1El10lQ&amp;s</image>
+        </book>
+        
+        <book id="16">
+            <category>civil</category>
+            <title>Structural Analysis</title>
+            <author>R.C. Hibbeler</author>
+            <publisher>Pearson Education</publisher>
+            <price currency="INR">600.00</price>
+            <isbn>978-0134382593</isbn>
+            <stock>16</stock>
+            <rating>4.6</rating>
+            <image>https://m.media-amazon.com/images/I/51AXTSfNRfL._UF1000,1000_QL80_.jpg</image>
+        </book>
+        
+        <book id="17">
+            <category>civil</category>
+            <title>Geotechnical Engineering</title>
+            <author>Braja M. Das</author>
+            <publisher>Cengage Learning</publisher>
+            <price currency="INR">620.00</price>
+            <isbn>978-1305635180</isbn>
+            <stock>11</stock>
+            <rating>4.5</rating>
+            <image>https://d9h54mr6do0h0.cloudfront.net/bookimage/9789355738103_tn.jpg</image>
+        </book>
+        
+        <book id="18">
+            <category>civil</category>
+            <title>Properties of Concrete</title>
+            <author>A.M. Neville</author>
+            <publisher>Pearson Education</publisher>
+            <price currency="INR">550.00</price>
+            <isbn>978-0273755807</isbn>
+            <stock>14</stock>
+            <rating>4.7</rating>
+            <image>https://m.media-amazon.com/images/I/81vZPHq89+L._UF1000,1000_QL80_.jpg</image>
+        </book>
+        
+        <book id="19">
+            <category>civil</category>
+            <title>Surveying and Levelling</title>
+            <author>B.C. Punmia</author>
+            <publisher>Laxmi Publications</publisher>
+            <price currency="INR">580.00</price>
+            <isbn>978-8170080558</isbn>
+            <stock>18</stock>
+            <rating>4.3</rating>
+            <image>https://m.media-amazon.com/images/I/51tADigREHL.jpg</image>
+        </book>
+        
+        <book id="20">
+            <category>civil</category>
+            <title>Highway Engineering</title>
+            <author>S.K. Khanna</author>
+            <publisher>Nem Chand &amp; Bros</publisher>
+            <price currency="INR">640.00</price>
+            <isbn>978-8121903462</isbn>
+            <stock>10</stock>
+            <rating>4.4</rating>
+            <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG0a83iyfffk_ykV_QMBtFZIzg5qvlMiyuYg&amp;s</image>
+        </book>
+    </books>
+</bookstore>

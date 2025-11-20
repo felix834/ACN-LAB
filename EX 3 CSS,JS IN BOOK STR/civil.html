@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+td img {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+}
+
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+  <!-- book details -->
+  <tr>
+    <td><img src="civ1.jfif" alt="Book 1" width="100"></td>
+    <td>
+      <h3>Basic Civil</h3>
+      <p>Author: Ajmal</p>
+      <p>Publisher: bookcart</p>
+    </td>
+    <td><label for ="Qty">Qty</label><input type="number" id="Qty" min="1" max="5"></td>
+    <td>$200.00</td>
+    <td><button onclick="addToCart('Basic Civil', 'Ajmal', '$200.00')">Add to Cart</button></td>
+  </tr>
+  <tr>
+    <td><img src="civ2.jfif" alt="Book 1" width="100"></td>
+    <td>
+      <h3>Construction Matrial</h3>
+      <p>Author: Syed</p>
+      <p>Publisher: bookcart</p>
+    </td>
+    <td><label for ="Qty">Qty</label><input type="number" id="Qty" min="1" max="5"></td>
+    <td>$300.00</td>
+    <td><button onclick="addToCart('Construction Matrial', 'Syed', '$300.00')">Add to Cart</button></td>
+  </tr>
+  <tr>
+    <td><img src="civ3.jfif" alt="Book 1" width="100"></td>
+    <td>
+      <h3>Mathamathics</h3>
+      <p>Author: Rajesh</p>
+      <p>Publisher: bookcart</p>
+    </td>
+    <td><label for ="Qty">Qty</label><input type="number" id="Qty" min="1" max="5"></td>
+    <td>$500.00</td>
+    <td><button onclick="addToCart('Mathamathics', 'Rajesh', '$500.00')">Add to Cart</button></td>
+  </tr>
+</table>
+<script>
+  function addToCart(title, author, price) {
+    const book = {
+      title,
+      author,
+      price
+    };
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    cart.push(book);
+    localStorage.setItem('cart', JSON.stringify(cart));
+    window.location.href = 'cart.html';
+  }
+</script>
+</body>
+</html>

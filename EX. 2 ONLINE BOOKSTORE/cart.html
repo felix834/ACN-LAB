@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cart Details</h1>
+<div id="cart-details"></div>
+
+<script>
+  const cart = JSON.parse(localStorage.getItem('cart')) || [];
+  const cartDetails = document.getElementById('cart-details');
+
+  cart.forEach((book, index) => {
+    const bookHTML = `
+      <p>Title: ${book.title}</p>
+      <p>Author: ${book.author}</p>
+      <p>Price: ${book.price}</p>
+      <button onclick="removeFromCart(${index})">Remove</button>
+      <hr>
+    `;
+    cartDetails.innerHTML += bookHTML;
+  });
+
+  function removeFromCart(index) {
+    cart.splice(index, 1);
+    localStorage.setItem('cart', JSON.stringify(cart));
+    window.location.reload();
+  }
+</script>
+
+</body>
+</html>
